@@ -6,7 +6,7 @@ I have installed Pop-os 22.04 on it and the problem is even if I disable my touc
 
 After some investigation, I did write a script to disable my touchpad and mousepad via the command line, because all other tools were used to disable the touchpad. 
 Here is the code:
-```
+```bash
 #!/bin/bash
 
 mouse=`xinput | grep 'Mouse' | cut -d$'\t' -f2`
@@ -37,13 +37,13 @@ echo 'Touch'`xinput list-props $touch_id | grep 'Device Enabled'`
 ```
 
 in order to use this on your own laptop do the following steps:
-```
+```bash
 $ wget [link](https://github.com/Kaveh8/disable-touchpad-linux/blob/main/disable_touchpad.sh)
 $ chmod 755 ./disable_touchpad
 $ sudo cp ./disable_touchpad /usr/local/bin
 ```
 
 Now you can disable your touchpad by entering the below command:
-```
+```bash
 $ disable_touchpad
 ```
