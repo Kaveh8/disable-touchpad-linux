@@ -6,8 +6,8 @@ To implement this solution on your own laptop, follow these steps:
 
 ```bash
 wget https://github.com/Kaveh8/disable-touchpad-linux/blob/main/disable_touchpad.sh
-chmod 755 ./disable_touchpad
-sudo mv ./disable_touchpad /usr/local/bin/
+chmod 755 ./disable_touchpad.sh
+sudo mv ./disable_touchpad.sh /usr/local/bin/disable_touchpad
 ```
 
 Now you can disable your touchpad by entering the below command:
