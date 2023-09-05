@@ -5,7 +5,7 @@ Here's a bash script that offers a command-line solution to disable both the tou
 To implement this solution on your own laptop, follow these steps:
 
 ```bash
-wget https://github.com/Kaveh8/disable-touchpad-linux/blob/main/disable_touchpad.sh
+wget https://raw.githubusercontent.com/Kaveh8/disable-touchpad-linux/main/disable_touchpad.sh
 chmod 755 ./disable_touchpad.sh
 sudo mv ./disable_touchpad.sh /usr/local/bin/disable_touchpad
 ```
